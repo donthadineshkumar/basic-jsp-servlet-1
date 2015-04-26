@@ -40,4 +40,14 @@
 		<servlet-name>HelloServlet</servlet-name>
 		<url-pattern>/hello</url-pattern>
 	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ReqParamServlet</servlet-name>
+		<jsp-file>/ReqParameters.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReqParamServlet</servlet-name>
+		<url-pattern>/params</url-pattern>
+	</servlet-mapping>
+
 </web-app>
