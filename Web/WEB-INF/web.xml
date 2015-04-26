@@ -30,4 +30,14 @@
 		<servlet-name>RegisterServlet</servlet-name>
 		<url-pattern>/register</url-pattern>
 	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>HelloServlet</servlet-name>
+		<jsp-file>/hello.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HelloServlet</servlet-name>
+		<url-pattern>/hello</url-pattern>
+	</servlet-mapping>
 </web-app>
